@@ -1,0 +1,394 @@
+.featuresWeProvide {
+  height: 46px;
+  position: relative;
+  letter-spacing: 0.23em;
+  font-weight: 900;
+  background: linear-gradient(96.14deg, #3a8ef6, #6f3afa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.calculatingBmi,
+.isEasier {
+  margin: 0;
+}
+.calculatingBmiIsContainer {
+  margin: 0;
+  height: 210px;
+  position: relative;
+  font-size: inherit;
+  line-height: 105px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.medicalheartRateIcon {
+  height: 61px;
+  width: 61px;
+  position: absolute;
+  margin: 0 !important;
+  right: 160px;
+  bottom: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.calculatingBmiIsEasierParent,
+.featuresWeProvideParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.calculatingBmiIsEasierParent {
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-51xl);
+}
+.featuresWeProvideParent {
+  flex-direction: column;
+  gap: var(--gap-12xl);
+}
+.weCalculateYour {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.frameGroup,
+.weCalculateYourBmiIndexFrWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.weCalculateYourBmiIndexFrWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-200);
+}
+.frameGroup {
+  width: 553px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  min-width: 553px;
+}
+.diet1Icon,
+.stats21Icon {
+  height: 111px;
+  width: 109.1px;
+  position: relative;
+  object-fit: contain;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.stats21Icon {
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+.stats21Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+}
+.diet1Parent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.diet1Parent {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 794px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.foodRecomendation {
+  position: relative;
+  line-height: 40px;
+}
+.foodRecomendationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nutritionalValue {
+  position: relative;
+  line-height: 40px;
+}
+.frameParent3,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper1 {
+  width: 920px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.weProvideFood {
+  align-self: stretch;
+  height: 172px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.weProvideFoodRecomendationWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 198px;
+}
+.chatbot1Icon {
+  height: 158px;
+  width: 158px;
+  position: relative;
+  object-fit: contain;
+}
+.frameParent5 {
+  width: 507px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-width: 507px;
+  max-width: 100%;
+}
+.getAllThe {
+  height: 129px;
+  width: 304px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 304px;
+}
+.frameParent2,
+.frameParent4 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent4 {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-200);
+}
+.frameParent2 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.interactiveChatbot {
+  position: relative;
+  line-height: 40px;
+}
+.frameParent1,
+.interactiveChatbotWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.interactiveChatbotWrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-43xl);
+  margin-top: -9px;
+}
+.frameParent1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.solveYourQueries {
+  height: 129px;
+  width: 304px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.solveYourQueriesByInteractWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-43xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-200);
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-2xs);
+}
+.frameContainer,
+.frameDiv,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xl);
+  min-width: 624px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 1350px) {
+  .diet1Parent,
+  .frameGroup {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .frameParent5,
+  .getAllThe {
+    flex: 1;
+  }
+  .frameParent4 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .featuresWeProvide {
+    font-size: var(--font-size-8xl);
+  }
+  .calculatingBmiIsContainer {
+    font-size: var(--font-size-37xl);
+    line-height: 84px;
+  }
+  .featuresWeProvideParent {
+    gap: var(--gap-mini);
+  }
+  .weCalculateYour {
+    font-size: var(--font-size-7xl);
+  }
+  .frameGroup {
+    min-width: 100%;
+  }
+  .foodRecomendation,
+  .nutritionalValue {
+    font-size: var(--font-size-8xl);
+    line-height: 32px;
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+  .weProvideFood {
+    font-size: var(--font-size-7xl);
+  }
+  .chatbot1Icon {
+    flex: 1;
+  }
+  .frameParent5 {
+    flex-wrap: wrap;
+    gap: var(--gap-3xl);
+    min-width: 100%;
+  }
+  .getAllThe {
+    font-size: var(--font-size-7xl);
+  }
+  .interactiveChatbot {
+    font-size: var(--font-size-8xl);
+    line-height: 32px;
+  }
+  .solveYourQueries {
+    font-size: var(--font-size-7xl);
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .featuresWeProvide {
+    font-size: var(--font-size-xl);
+  }
+  .calculatingBmiIsContainer {
+    font-size: var(--font-size-23xl);
+    line-height: 63px;
+  }
+  .weCalculateYour {
+    font-size: var(--font-size-lgi);
+  }
+  .diet1Parent {
+    flex-wrap: wrap;
+  }
+  .foodRecomendation,
+  .nutritionalValue {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .getAllThe,
+  .weProvideFood {
+    font-size: var(--font-size-lgi);
+  }
+  .interactiveChatbot {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .interactiveChatbotWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .solveYourQueries {
+    font-size: var(--font-size-lgi);
+  }
+  .solveYourQueriesByInteractWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,268 @@
+.frameChild {
+  height: 72px;
+  width: 341px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.frameItem,
+.healthMatters {
+  position: relative;
+  z-index: 2;
+}
+.healthMatters {
+  height: 43px;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  font-family: var(--font-satoshi);
+  color: var(--color-dimgray-200);
+  text-align: left;
+  align-items: center;
+}
+.frameItem {
+  height: 40px;
+  width: 61px;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 1px solid var(--color-darkgray-100);
+  padding: var(--padding-smi) var(--padding-sm) var(--padding-xs)
+    var(--padding-14xl);
+  background-color: var(--color-gray-400);
+  border-radius: var(--br-21xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangleParent:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+}
+.oneStepSolution {
+  margin: 0;
+}
+.forAllYour {
+  margin: 0;
+  color: var(--color-black);
+}
+.oneStepSolutionContainer {
+  margin: 0;
+  height: 315px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 105px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.backgroundIcon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -53px;
+  top: 74px;
+  transform: scale(2.997);
+}
+.wrapperBackground {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  width: 1116.3px;
+  height: 350.3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kisspngPhysicianDiabetesMelIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 322px;
+  max-height: 100%;
+  width: 1285.4px;
+  object-fit: contain;
+  z-index: 2;
+}
+.wrapperBackgroundParent {
+  height: 965px;
+  width: 1369px;
+  position: absolute;
+  margin: 0 !important;
+  right: -774px;
+  bottom: -394px;
+}
+.frameWrapper,
+.oneStepSolutionForAllYourParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.oneStepSolutionForAllYourParent {
+  flex: 1;
+  position: relative;
+}
+.frameWrapper {
+  width: 825px;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.usingYourBmi {
+  height: 86px;
+  flex: 1;
+  position: relative;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.usingYourBmiIndexWeCalculWrapper {
+  width: 764px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameInner {
+  height: 120px;
+  width: 869px;
+  position: relative;
+  box-shadow: 2px 6px 4px rgba(145, 139, 139, 0.4);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.searchYourProduct {
+  height: 41px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.searchYourProductWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+}
+.frameChild1,
+.frameChild2,
+.groupIcon {
+  height: 78px;
+  width: 78px;
+  position: relative;
+  min-height: 78px;
+  z-index: 3;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameGroup,
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-self: stretch;
+  box-shadow: 2px 6px 4px rgba(145, 139, 139, 0.4);
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-2xl) var(--padding-12xl) var(--padding-2xl)
+    var(--padding-28xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-11xl);
+  color: var(--color-dimgray-300);
+}
+.frameGroup,
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-25xl);
+  font-size: var(--font-size-13xl);
+  color: var(--color-gray-200);
+}
+.frameParent {
+  width: 869px;
+  gap: var(--gap-12xl);
+  text-align: left;
+  font-size: var(--font-size-71xl);
+  color: var(--color-royalblue-100);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 1150px) {
+  .rectangleGroup {
+    padding-left: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .oneStepSolutionContainer {
+    font-size: var(--font-size-26xl);
+    line-height: 63px;
+  }
+  .usingYourBmi {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .searchYourProduct {
+    font-size: var(--font-size-5xl);
+  }
+  .rectangleGroup {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .oneStepSolutionContainer {
+    font-size: var(--font-size-8xl);
+    line-height: 42px;
+  }
+  .usingYourBmi {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .searchYourProduct {
+    font-size: var(--font-size-lg);
+  }
+  .frameGroup {
+    gap: var(--gap-3xl);
+  }
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+}

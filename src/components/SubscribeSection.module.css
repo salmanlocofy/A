@@ -1,0 +1,174 @@
+.formTitle,
+.formTitleSubtext {
+  align-self: stretch;
+  position: relative;
+  font-weight: 700;
+}
+.formTitleSubtext {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.formTitle {
+  margin: 0;
+  font-size: var(--font-size-11xl);
+  font-style: italic;
+  font-family: inherit;
+  color: var(--color-darkslategray-100);
+}
+.formHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.fillInYour,
+.yourName {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 34px;
+  font-style: italic;
+  font-family: var(--components-chip);
+  color: var(--color-slategray-100);
+  text-align: left;
+}
+.yourName {
+  font-size: var(--font-size-base);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  color: var(--text-secondary);
+}
+.nameInput {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--other-outlined-border);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-2xs);
+  white-space: nowrap;
+}
+.emailAddress {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.15px;
+  line-height: 24px;
+  font-style: italic;
+  font-family: var(--components-chip);
+  color: var(--text-secondary);
+  text-align: left;
+}
+.emailInput,
+.formFields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailInput {
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--other-outlined-border);
+  padding: var(--padding-sm) var(--padding-2xs);
+  white-space: nowrap;
+}
+.formFields {
+  gap: var(--gap-3xs);
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: 0.46px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 500;
+  font-family: var(--components-chip);
+  color: var(--neutral-100);
+  text-align: center;
+}
+.button,
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-3xs);
+  background-color: var(--color-orange);
+  width: 100%;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 160px;
+}
+.button:hover {
+  background-color: var(--color-chocolate);
+}
+.form {
+  margin: 0;
+  align-self: stretch;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.03);
+  border-radius: var(--br-xs);
+  background-color: var(--neutral-100);
+  border: 1px solid var(--color-whitesmoke-200);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-10xl);
+  gap: var(--gap-mid);
+}
+.formContainer,
+.subscribesection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.formContainer {
+  width: 550px;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-11xl);
+  max-width: 550px;
+}
+.subscribesection {
+  align-self: stretch;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-26xl) var(--padding-xl);
+  background-image: url(/public/subscribesection@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--components-chip);
+}
+@media screen and (max-width: 800px) {
+  .formTitle {
+    font-size: var(--font-size-5xl);
+  }
+  .formContainer {
+    max-width: 100%;
+  }
+  .subscribesection {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .formTitle {
+    font-size: var(--font-size-lg);
+  }
+}

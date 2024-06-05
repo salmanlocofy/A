@@ -1,0 +1,650 @@
+.departurecity,
+.departurecitycode,
+.recentSearches {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+.recentSearches {
+  align-self: stretch;
+  text-transform: uppercase;
+}
+.departurecity,
+.departurecitycode {
+  text-transform: capitalize;
+  font-style: italic;
+}
+.departurecitycode {
+  height: 28px;
+  display: inline-block;
+}
+.departurecity {
+  font-size: var(--font-size-base);
+}
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 100px;
+}
+.point {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--br-3xs);
+  background-color: var(--neutral-100);
+  border: 2px solid var(--color-cornflowerblue-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.departurePoint {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+}
+.frameChild {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 1px dashed var(--color-lightgray-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.flightIconsInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.frameItem,
+.ionairplaneIcon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.ionairplaneIcon {
+  height: 24px;
+  width: 26px;
+  overflow: hidden;
+}
+.frameItem {
+  align-self: stretch;
+  height: 2px;
+  border-top: 1px dashed var(--color-lightgray-200);
+  box-sizing: border-box;
+}
+.flightIconsChild {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.point1 {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--br-3xs);
+  background-color: var(--neutral-100);
+  border: 2px solid var(--color-cornflowerblue-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.arrivalPoint {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+}
+.flightIcons,
+.flightRoute {
+  display: flex;
+  justify-content: flex-start;
+}
+.flightIcons {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.flightRoute {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base-5) 0 0;
+  box-sizing: border-box;
+  min-width: 148px;
+}
+.destinationcitycode {
+  height: 28px;
+  width: 51.3px;
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.arrivalCodeContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.destinationcity {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+}
+.details1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-85xl);
+  box-sizing: border-box;
+  min-width: 100px;
+}
+.arrivalDetails,
+.details1,
+.toAndFrom {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrivalDetails {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 148px;
+  text-align: right;
+}
+.toAndFrom {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-12xs-1);
+}
+.date,
+.departOn {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+}
+.departOnParent,
+.departureDateContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.departOnParent {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.departureDateContainer {
+  align-self: stretch;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.flightmaincontainer {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-2xl);
+  min-width: 411px;
+  max-width: 100%;
+}
+.departurecity1,
+.departurecitycode1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+}
+.departurecitycode1 {
+  height: 28px;
+  display: inline-block;
+}
+.departurecity1 {
+  font-size: var(--font-size-base);
+}
+.details2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 100px;
+}
+.point2 {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--br-3xs);
+  background-color: var(--neutral-100);
+  border: 2px solid var(--color-cornflowerblue-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.pointWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+}
+.frameInner {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 1px dashed var(--color-lightgray-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.ionairplaneIcon1,
+.lineDiv {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.ionairplaneIcon1 {
+  height: 24px;
+  width: 26px;
+  overflow: hidden;
+}
+.lineDiv {
+  align-self: stretch;
+  height: 2px;
+  border-top: 1px dashed var(--color-lightgray-200);
+  box-sizing: border-box;
+}
+.flightIconsInner1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs);
+}
+.point3 {
+  width: 10px;
+  height: 10px;
+  border-radius: var(--br-3xs);
+  background-color: var(--neutral-100);
+  border: 2px solid var(--color-cornflowerblue-200);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: bf13831;
+}
+.pointContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+}
+.flightIcons1,
+.flightIconsWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.flightIcons1 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.flightIconsWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base-5) 0 0;
+  box-sizing: border-box;
+  min-width: 148px;
+}
+.destinationcitycode1 {
+  height: 28px;
+  display: inline-block;
+}
+.destinationcity1,
+.destinationcitycode1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+}
+.destinationcityWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  text-align: left;
+  font-size: var(--font-size-base);
+}
+.details3 {
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-127xl);
+  box-sizing: border-box;
+  min-width: 100px;
+}
+.details3,
+.detailsWrapper,
+.toAndFrom1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.detailsWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 148px;
+  text-align: right;
+}
+.toAndFrom1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-12xs-1);
+}
+.date1,
+.departOn1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 700;
+}
+.departOnGroup,
+.flightmaincontainerInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.departOnGroup {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.flightmaincontainerInner {
+  align-self: stretch;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.flightContainer,
+.flightmaincontainer1,
+.recentSearchTitleContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flightmaincontainer1 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-lg) var(--padding-lgi);
+  gap: var(--gap-2xl);
+  min-width: 411px;
+}
+.flightContainer,
+.recentSearchTitleContainer {
+  align-self: stretch;
+}
+.flightContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue-200);
+}
+.recentSearchTitleContainer {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.prepareForYour {
+  align-self: stretch;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.icon,
+.prepareForYour,
+.text {
+  position: relative;
+}
+.icon {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.text {
+  align-self: stretch;
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
+.tripitem {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.icon1,
+.text1 {
+  position: relative;
+}
+.icon1 {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.text1 {
+  align-self: stretch;
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
+.tripitem1 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.icon2,
+.text2 {
+  position: relative;
+}
+.icon2 {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.text2 {
+  align-self: stretch;
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
+.tripitem2 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.icon3,
+.text3 {
+  position: relative;
+}
+.icon3 {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.text3 {
+  align-self: stretch;
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
+.tripitem3 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.icon4,
+.text4 {
+  position: relative;
+}
+.icon4 {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.text4 {
+  align-self: stretch;
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
+.tripitem4 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.icon5,
+.text5 {
+  position: relative;
+}
+.icon5 {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+.text5 {
+  align-self: stretch;
+  letter-spacing: 0.04em;
+  font-style: italic;
+}
+.tripitem5 {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.prepareMenu,
+.recentSearchesContainer,
+.tripMenus {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.tripMenus {
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-100);
+}
+.prepareMenu,
+.recentSearchesContainer {
+  flex-direction: column;
+  justify-content: center;
+  color: var(--color-lightgray-100);
+}
+.recentSearchesContainer {
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-400);
+  font-family: var(--components-chip);
+}
+@media screen and (max-width: 800px) {
+  .toAndFrom {
+    flex-wrap: wrap;
+  }
+  .flightmaincontainer {
+    min-width: 100%;
+  }
+  .toAndFrom1 {
+    flex-wrap: wrap;
+  }
+  .flightmaincontainer1 {
+    min-width: 100%;
+  }
+  .tripMenus {
+    flex-wrap: wrap;
+  }
+  .recentSearchesContainer {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .departurecitycode,
+  .destinationcitycode {
+    font-size: var(--font-size-lgi);
+  }
+  .date,
+  .departOn {
+    font-size: var(--font-size-base);
+  }
+  .departurecitycode1,
+  .destinationcitycode1 {
+    font-size: var(--font-size-lgi);
+  }
+  .date1,
+  .departOn1 {
+    font-size: var(--font-size-base);
+  }
+}

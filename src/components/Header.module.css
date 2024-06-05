@@ -1,0 +1,135 @@
+.logoblueIcon {
+  height: 33px;
+  width: 174px;
+  position: relative;
+  object-fit: contain;
+}
+.text {
+  text-decoration: none;
+  position: relative;
+  font-style: italic;
+  color: inherit;
+}
+.navigationlink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-cornflowerblue-100);
+}
+.text1 {
+  text-decoration: none;
+  position: relative;
+  font-style: italic;
+  color: inherit;
+}
+.navigationlink1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text2 {
+  text-decoration: none;
+  position: relative;
+  font-style: italic;
+  color: inherit;
+}
+.navigationlink2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text3 {
+  text-decoration: none;
+  position: relative;
+  font-style: italic;
+  color: inherit;
+}
+.navigationMenu,
+.navigationlink3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navigationMenu {
+  margin: 0;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-10xs);
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-chip);
+}
+.hamburgerMenuIcon {
+  position: relative;
+  display: none;
+}
+.hamburgerMenuIcon,
+.icon {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.avatarIcon {
+  height: 36px;
+  width: 36px;
+  border-radius: var(--br-19xl);
+  object-fit: cover;
+}
+.accountSection {
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.accountSection,
+.header,
+.headerContainer,
+.navigationRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigationRight {
+  width: 370px;
+  justify-content: flex-end;
+  gap: var(--gap-17xl);
+  max-width: 370px;
+}
+.header,
+.headerContainer {
+  max-width: 100%;
+}
+.headerContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.header {
+  align-self: stretch;
+  background-color: var(--neutral-100);
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+@media screen and (max-width: 800px) {
+  .navigationMenu {
+    display: none;
+  }
+  .navigationRight {
+    width: 108px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navigationRight {
+    gap: var(--gap-lg);
+  }
+}

@@ -1,0 +1,84 @@
+.helpTopics {
+  height: 46px;
+  position: relative;
+  letter-spacing: 0.23em;
+  font-weight: 900;
+  background: linear-gradient(96.14deg, #3a8ef6, #6f3afa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.enhanceYourLifestyle {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-51xl);
+  line-height: 105px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.helpTopicsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  width: 1467px;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-41xl);
+}
+.frameGroup,
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  height: 519px;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-26xl);
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-black);
+  font-family: var(--font-satoshi);
+}
+@media screen and (max-width: 800px) {
+  .helpTopics {
+    font-size: var(--font-size-8xl);
+  }
+  .enhanceYourLifestyle {
+    font-size: var(--font-size-37xl);
+    line-height: 84px;
+  }
+  .helpTopicsParent {
+    gap: var(--gap-mini);
+  }
+  .frameGroup {
+    gap: var(--gap-11xl);
+  }
+  .frameParent {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .helpTopics {
+    font-size: var(--font-size-xl);
+  }
+  .enhanceYourLifestyle {
+    font-size: var(--font-size-23xl);
+    line-height: 63px;
+  }
+}
